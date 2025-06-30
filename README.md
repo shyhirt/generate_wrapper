@@ -1,6 +1,15 @@
 # generate_wrapper
-Sqlc valkey wrapper
 
-Generates Go wrappers for gRPC interfaces and SQLC-based Valkey access. Ideal for Go microservices with codegen tooling.
+🛠️ A tool to generate Go wrappers for gRPC client interfaces and Valkey (Redis) access using SQLC and AST parsing.
 
-Usage: ```go run generate_wrapper.go <package-path> <out-path>```
+## 🚀 Features
+
+- Wraps `.pb.go` gRPC client interfaces
+- Supports SQLC-generated queries
+- Outputs clean, testable wrapper code
+- Easy integration into your Go microservices
+
+## 📦 Usage
+
+```bash
+go run generate_wrapper.go <package-path> <out-path>
