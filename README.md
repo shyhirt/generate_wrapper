@@ -17,4 +17,4 @@ go run generate_wrapper.go <package-path> <out-path>
 ```markdown
 ![Go](https://img.shields.io/badge/Go-1.22-blue)
 ![License](https://img.shields.io/github/license/youruser/generate_wrapper)
-![Stars](https://img.shields.io/github/stars/youruser/generate_wrapper?style=social)
+![Stars](https://img.shields.io/github/stars/youruser/generate_wrapper?style=social)```
